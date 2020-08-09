@@ -15,3 +15,9 @@ The game will start paused, so you can draw on the grid and them play it.
 - Use `left click` to insert live cells, and `right click` to kill living cells. 
 - Use `R` to fill the whole grid randomly
 - User `del` to erase the whole grid
+
+![Game running](https://github.com/EvandroLucas/ConwaysGameOfLife/blob/master/Prints/Screenshot%20from%202020-08-09%2012-27-35.png)
+![You can draw on canvas](https://github.com/EvandroLucas/ConwaysGameOfLife/blob/master/Prints/Screenshot%20from%202020-08-09%2012-33-21.png)
+
+
+
