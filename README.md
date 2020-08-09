@@ -6,9 +6,10 @@ You'll probally need to `pip install` those 3 libraris in order for it to work.
 
 Once everything is set up, just run: 
 
-  python2 main.py 50 50
+  python2 GOL.py 50 50
   
 To start the game with a 50x50 grid. 
+
 The game will start paused, so you can draw on the grid and them play it. 
 - Use `space` to play/pause
 - Use `left click` to insert live cells, and `right click` to kill living cells. 
