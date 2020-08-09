@@ -6,7 +6,7 @@ You'll probally need to `pip install` those 3 libraris in order for it to work.
 
 Once everything is set up, just run: 
 
-  python2 GOL.py 50 50
+      python2 GOL.py 50 50
   
 To start the game with a 50x50 grid. 
 
