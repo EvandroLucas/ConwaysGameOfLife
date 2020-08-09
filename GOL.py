@@ -149,12 +149,12 @@ def waitForKey(key) :
 def main():
 
     if len(sys.argv) >= 2 :
-        numRows = min(80,int(sys.argv[1]))
-        numCols = min(80,int(sys.argv[2]))
+        numRows = min(120,int(sys.argv[1]))
+        numCols = min(120,int(sys.argv[2]))
     
     else:
-        numRows = 80
-        numCols = 80
+        numRows = 60
+        numCols = 60
     numElem = numRows * numCols
     #matrix = randomMatrix(numRows,numCols)
     matrix = np.zeros((numRows,numCols))
@@ -235,6 +235,10 @@ def main():
                     matrix = randomMatrix(numRows,numCols)
 
         glClear(GL_COLOR_BUFFER_BIT)
+
+        matrix[0][0] = True
+        matrix[-1][-1] = True
+
         grid(matrix,numRows,numCols,tileSize)
 
 
@@ -272,7 +276,7 @@ def main():
 
         #print("True pos: " + str(truePos))
         redTile(truePos[0],truePos[1],tileSize)
-        if (0 <= truePos[0] < numRows) and (0 <= truePos[1] < numCols) :
+        if (0 <= truePos[0] < numCols) and (0 <= truePos[1] < numRows) :
             if pressed1 == 1 :
                 matrix[-truePos[1]-1][truePos[0]] = True
             elif pressed3 == 1 :
