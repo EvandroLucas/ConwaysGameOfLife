@@ -9,7 +9,8 @@ Once everything is set up, just run:
 
       python2 GOL.py 50 50
   
-To start the game with a 50x50 grid. The game will start paused and blank. To add stuff to it, see the commands below: 
+To start the game with a 50x50 grid. Currently, the maximum number of tiles allowed is 80x80. 
+The game will start paused and blank. To add stuff to it, see the commands below: 
 
 - Press `space` to play/pause the game
 - Press or hold `left click` to insert live cells, and `right click` to kill living cells. 
